@@ -1,0 +1,140 @@
+section=Python Projects
+
+repo.url=pyblog
+repo.path=git/pyblog/.git
+repo.desc=python3: PyBlog - Manage an entire blog with just one python script!
+repo.owner=chunk
+repo.readme=git/pyblog/README.md
+repo.logo=/python.logo.png
+#git clone git@github.com:the8woodcutter/pyblog
+
+repo.url=fknalarm
+repo.path=git/fknalarm/.git
+repo.desc=python3: Cuz my fuckin' phone broke and I need a way to get the fuck outta bed on time
+repo.owner=chunk
+repo.readme=git/fknalarm/README.md
+repo.logo=/python.logo.png
+#git clone git@github.com:the8woodcutter/fknalarm
+
+section=Bots for XMPP and More To Come
+
+repo.url=xmpputils
+repo.path=git/xmpputils/.git
+repo.desc=slixmpp: A SliXMPP bot for querying XMPP server services and MUC's
+repo.owner=chunk
+repo.readme=git/xmpputils/README.md
+repo.logo=/xmpp.logo.png
+
+repo.url=pubsubtools
+repo.path=git/pubsubtools/.git
+repo.desc=slixmpp: A SliXMPP bot method for managing XMPP PubSub nodes and commands
+repo.owner=chunk
+repo.readme=git/pubsubtools/README.md
+repo.logo=/xmpp.logo.png
+
+repo.url=mrbot
+repo.path=git/mrbot/.git
+repo.desc=slixmpp: Chunk's happy XMPP bot made using SliXMPP named mrBot
+repo.owner=chunk
+repo.readme=git/mrbot/README.md
+repo.logo=/python.logo.png
+
+#git clone git@github.com:the8woodcutter/mrbot
+#git clone git@github.com:the8woodcutter/xmpputils.git
+#git clone git@github.com:the8woodcutter/pubsubtools
+
+
+section=HTTP Projects
+
+repo.url=the8woodcutter
+repo.path=git/the8woodcutter/.git
+repo.desc=html: The Woodcutter's Own Personal Blog - Using BashBlog (currently) and running for a few years now
+repo.owner=chunk
+repo.readme=git/the8woodcutter/README.md
+
+repo.url=mycgit
+repo.path=git/mycgit/.git
+repo.desc=cgi: Chunk's cgit project files and scripts
+repo.owner=chunk
+repo.readme=git/mycgit/README.md
+
+#git clone git@github.com:the8woodcutter/the8woodcutter
+#git clone git@github.com:the8woodcutter/mycgit
+
+
+section=Darknet, XMPP and Such
+
+repo.url=i2pd-tools
+repo.path=git/i2pd-tools/.git
+repo.desc=i2pd: This repository contains tools that supplement i2pd.
+repo.owner=chunk
+repo.readme=git/i2pd-tools/README.md
+repo.logo=/i2p.logo.png
+
+repo.url=mod_deepweb
+repo.path=git/mod_deepweb/.git
+repo.desc=xmpp: Fork of mod_onions that adds I2P support: prosody module
+repo.owner=chunk
+repo.readme=git/mod_deepweb/README.md
+repo.logo=/xmpp.logo.png
+
+repo.url=mod_i2p
+repo.path=git/mod_i2p/.git
+repo.desc=xmpp: 'Stage-Alpha' summary: s2s to I2P hidden services: prosody module
+repo.owner=chunk
+repo.readme=git/mod_i2p/README.markdown
+repo.logo=/xmpp.logo.png
+
+repo.url=conversejs-i2p
+repo.path=git/conversejs-i2p/.git
+repo.desc=xmpp: Web Browser XMPP Client application that uses i2p Network
+repo.owner=chunk
+repo.readme=git/conversejs-i2p/README.md
+repo.logo=/i2p.logo.png
+
+#git clone https://github.com/PurpleI2P/i2pd-tools.git
+#git clone https://gt.kalli.st/czar/mod_deepweb.git
+#git clone https://github.com/jerry-harm/mod_i2p
+#git clone git@github.com:the8woodcutter/conversejs-i2p
+
+
+section=PubSub and XMPP Mirrors
+
+repo.url=Blasta
+repo.path=git/Blasta/.git
+repo.desc=pubsub: Blasta - The agreeable and cordial civic annotation system.
+repo.owner=chunk
+repo.readme=git/Blasta/README.md
+#repo.owner-filter=
+repo.logo=/xmpp.logo.png
+
+repo.url=Slixfeed
+repo.path=git/Slixfeed/.git
+repo.desc=slixmpp: Syndication bot for XMPP
+repo.owner=chunk
+repo.readme=git/Slixfeed/README.md
+#repo.owner-filter=
+repo.logo=/xmpp.logo.png
+
+#git clone https://git.xmpp-it.net/sch/Blasta.git
+#git clone https://git.xmpp-it.net/sch/Slixfeed.git
+
+
+section=Mirrors and Shared Work
+
+repo.url=cgit
+repo.path=git/cgit/.git
+repo.desc=cgi: A hyperfast web frontend for git repositories written in C.	
+repo.owner=chunk
+repo.readme=git/cgit/README
+#git clone https://git.zx2c4.com/cgit/
+
+
+section=Web Application Framework Projects
+
+repo.url=musicplace
+repo.path=git/musicplace-stable/.git
+repo.desc=flask: Music Place!  Chunk's very own MusicPlace.Vip flask application
+repo.owner=chunk
+repo.readme=git/musicplace-stable/README.md
+#git clone git@github.com:the8woodcutter/musicplace-stable
