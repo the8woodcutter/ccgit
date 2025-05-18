@@ -9,7 +9,6 @@ repo.readme=/var/www/html/ccgit/git/pyblog/README.md
 repo.logo=/python.logo.png
 
 
-
 repo.url=fknalarm
 repo.path=/var/www/html/ccgit/git/fknalarm/.git
 repo.desc=python3: Cuz my fuckin' phone broke and I need a way to get the fuck outta bed on time
@@ -17,7 +16,6 @@ repo.owner=chunk
 repo.readme=/var/www/html/ccgit/git/fknalarm/README.md
 #repo.owner-filter=/var/www/html/ccgit/filters/owner-links.lua
 repo.logo=/python.logo.png
-
 
 
 section=Bots for XMPP and More To Come
@@ -47,10 +45,6 @@ repo.readme=/var/www/html/ccgit/git/mrbot/README.md
 repo.logo=/python.logo.png
 
 
-
-
-
-
 section=HTTP Projects
 
 repo.url=the8woodcutter
@@ -66,9 +60,6 @@ repo.desc=cgi: Chunk's cgit project files and scripts
 repo.owner=chunk
 repo.readme=/var/www/html/ccgit/git/mycgit/README.md
 #repo.owner-filter=/var/www/html/ccgit/filters/owner-links.lua
-
-
-
 
 
 section=Darknet, XMPP and Such
@@ -106,11 +97,6 @@ repo.readme=/var/www/html/ccgit/git/conversejs-i2p/README.md
 repo.logo=/i2p.logo.png
 
 
-
-
-
-
-
 section=PubSub and XMPP Mirrors
 
 repo.url=Blasta
@@ -130,9 +116,6 @@ repo.readme=/var/www/html/ccgit/git/Slixfeed/README.md
 repo.logo=/xmpp.logo.png
 
 
-
-
-
 section=Mirrors and Shared Work
 
 repo.url=cgit
@@ -142,8 +125,6 @@ repo.owner=chunk
 repo.readme=/var/www/html/ccgit/git/cgit/README
 #repo.owner-filter=/var/www/html/ccgit/filters/owner-links.lua
 repo.logo=https://git.zx2c4.com/cgit.png
-
-
 
 
 section=Web Application Framework Projects
