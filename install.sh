@@ -28,4 +28,4 @@ cd /var/www/html/ccgit/cgit && make LUA_PKGCONFIG=lua5.2
 cd /var/www/html/ccgit && rm -rf /var/www/html/ccgit/cgit
 
 ### Congrats, cgit.cgi executable is ready and now to put the things where they need to go
-/usr/lib/python3 /var/www/html/ccgit/install.2.py
+/usr/bin/python3 /var/www/html/ccgit/install.2.py
