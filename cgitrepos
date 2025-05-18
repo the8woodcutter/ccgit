@@ -54,11 +54,11 @@ repo.owner=chunk
 repo.readme=/var/www/html/ccgit/git/the8woodcutter/README.md
 #repo.owner-filter=/var/www/html/ccgit/filters/owner-links.lua
 
-repo.url=mycgit
-repo.path=/var/www/html/ccgit/git/mycgit/.git
-repo.desc=cgi: Chunk's cgit project files and scripts
+repo.url=ccgit
+repo.path=/var/www/html/ccgit/git/ccgit/.git
+repo.desc=cgi: >> c-hunk >> cgit >> :: basically just how I use the whole apparatus and some fixes
 repo.owner=chunk
-repo.readme=/var/www/html/ccgit/git/mycgit/README.md
+repo.readme=/var/www/html/ccgit/git/ccgit/README.md
 #repo.owner-filter=/var/www/html/ccgit/filters/owner-links.lua
 
 

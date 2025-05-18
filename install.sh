@@ -54,7 +54,7 @@ git clone git@github.com:the8woodcutter/mrbot
 git clone git@github.com:the8woodcutter/xmpputils.git
 git clone git@github.com:the8woodcutter/pubsubtools
 git clone git@github.com:the8woodcutter/the8woodcutter
-git clone git@github.com:the8woodcutter/mycgit
+git clone git@github.com:the8woodcutter/ccgit
 git clone https://github.com/PurpleI2P/i2pd-tools.git
 git clone https://gt.kalli.st/czar/mod_deepweb.git
 git clone https://github.com/jerry-harm/mod_i2p
