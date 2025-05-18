@@ -3,10 +3,10 @@ css=/cgit.css
 logo=/logo.png
 favicon=/favicon.ico
 root-desc="⭒✪[New CGIT Instance!]✪✫⭒  Let's see what we can create with CGIT :D" ⭒✫⭒⭒ %webdev %php %mysql %cgi %html4 %2003 %webmaster %programmer %custom-colorz ⭒✫⭒⭒
-root-readme=/var/www/html/cgit/public/README.md
+root-readme=/var/www/html/ccgit/README.md
 root-title=✮ Cmdr_Chunk's Public Codez ✮
 virtual-root=/
-snapshots=tar.gz zip
+snapshots=gz zip
 
 ## CLONING:
 enable-http-clone=1
@@ -15,11 +15,11 @@ clone-url=http://$HTTP_HOST/$CGIT_REPO_URL
 
 
 ## GLOBAL FILTERS:
-source-filter=../filters/syntax-highlighting.py
-about-filter=../filters/about-formatting.sh
-commit-filter=../filters/commit-links.sh
-email-filter=lua:../filters/email-libravatar.lua
-#auth-filter=../filters/simple-authentication.lua
+source-filter=/var/www/html/ccgit/filters/syntax-highlighting.py
+about-filter=/var/www/html/ccgit/filters/about-formatting.sh
+commit-filter=/var/www/html/ccgit/filters/commit-links.sh
+email-filter=lua:/var/www/html/ccgit/filters/email-libravatar.lua
+#auth-filter=/var/www/html/ccgit/filters/simple-authentication.lua
 
 
 ## README's:
@@ -105,4 +105,4 @@ max-stats=quarter
 side-by-side-diffs=1
 section-sort=0
 
-include=/etc/cgitrepos
+include=/var/www/html/ccgit/cgitrepos
