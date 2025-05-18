@@ -21,10 +21,11 @@ git submodule update
 make get-git
 
 ### Important:
-cp /var/www/html/ccgit/Makefile /var/www/html/ccgit/cgit
+cp /var/www/html/ccgit/IMPORTANTFILE /var/www/html/ccgit/cgit/Makefile
 
 ### Lua5.1 or Lua5.2 are the accepted versions, or luajit
 cd /var/www/html/ccgit/cgit && make LUA_PKGCONFIG=lua5.2
+mv /var/www/html/ccgit/cgit/cgit.cgi /var/www/html/ccgit
 cd /var/www/html/ccgit && rm -rf /var/www/html/ccgit/cgit
 
 ### Congrats, cgit.cgi executable is ready and now to put the things where they need to go

@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-DIR=/var/www/html/cgit
+DIR=/var/www/html/ccgit
 USER1=1000
 USER2=www-data
 sudo chown -R $USER1:$USER2 $DIR
