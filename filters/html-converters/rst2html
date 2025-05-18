@@ -1,2 +1,3 @@
 #!/bin/bash
-exec rst2html.py --template <(echo -e "%(stylesheet)s\n%(body_pre_docinfo)s\n%(docinfo)s\n%(body)s")
+python3 -m venv venv && source venv/bin/activate && pip install rst2html
+exec rst2html --template <(echo -e "%(stylesheet)s\n%(body_pre_docinfo)s\n%(docinfo)s\n%(body)s")

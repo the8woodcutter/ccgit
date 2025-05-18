@@ -1,31 +1,28 @@
-# MAIN OPTIONS:
+## MAIN OPTIONS:
 css=/cgit.css
 logo=/logo.png
 favicon=/favicon.ico
-root-desc="New CGIT Instance!  Let's see what we can create with CGIT :D" ✫  #webdev #php #mysql #2003 #webmaster #programmer #custom-colorz ✫
+root-desc="⭒✪[New CGIT Instance!]✪✫⭒  Let's see what we can create with CGIT :D" ⭒✫⭒⭒ %webdev %php %mysql %cgi %html4 %2003 %webmaster %programmer %custom-colorz ⭒✫⭒⭒
 root-readme=/var/www/html/cgit/public/README.md
 root-title=✮ Cmdr_Chunk's Public Codez ✮
 virtual-root=/
 snapshots=tar.gz zip
 
-# CLONING:
+## CLONING:
 enable-http-clone=1
 clone-url=http://$HTTP_HOST/$CGIT_REPO_URL
-#ssh://$CGIT_REPO_OWNER@cgit.codez.the8woodcutter.sh:/srv/git/$CGIT_REPO_URL
+#ssh://$CGIT_REPO_OWNER@cgit.codez.the8woodcutter.sh:git/$CGIT_REPO_URL
 
 
-# FILTERS:
-source-filter=filters/syntax-highlighting.py
-about-filter=filters/about-formatting.sh
-#auth-filter=filters/simple-authentication.lua
-commit-filter=filters/commit-links.sh
-email-filter=lua:filters/email-libravatar.lua
-# REPO FILTERS:
-#repo.email-filter=filter/email-libravatar.py
-#repo.commit-filter=filters/commit-links.sh
-#repo.owner-filter=filters/owner-links.lua
+## GLOBAL FILTERS:
+source-filter=../filters/syntax-highlighting.py
+about-filter=../filters/about-formatting.sh
+commit-filter=../filters/commit-links.sh
+email-filter=lua:../filters/email-libravatar.lua
+#auth-filter=../filters/simple-authentication.lua
 
-# README's:
+
+## README's:
 readme=:README.md
 readme=:readme.md
 readme=:README.mkd
@@ -64,15 +61,28 @@ readme=:install.txt
 readme=:INSTALL
 readme=:install
 
-# MIME TYPES:
+## MIME TYPES:
 mimetype-file=/etc/mime.types
-mimetype.gif=image/gif
+
 mimetype.html=text/html
+mimetype.css=text/css
+mimetype.md=text/markdown
+mimetype.js=text/javascript
+mimetype.sh=text/x-sh
+mimetype.py=text/x-python
+
+mimetype.gif=image/gif
 mimetype.jpg=image/jpeg
 mimetype.jpeg=image/jpeg
-mimetype.pdf=application/pdf
 mimetype.png=image/png
 mimetype.svg=image/svg+xml
+
+mimetype.pdf=application/pdf
+
+mimetype.otf=font/otf
+mimetype.ttf=font/ttf
+mimetype.woff=font/woff
+mimetype.woff2=font/woff2
 
 # OTHER OPTIONS:
 cache-size=1024
