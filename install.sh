@@ -20,7 +20,7 @@
 
 # As many dependencies as I can find:
 sudo apt install nginx-full fcgiwrap luajit2 lua5.2 liblua5.2-dev libzip-dev libssl-dev openssl gcc g++ \
-	make libtool binutils python3 python3-markdown python3-venv git lua-luaossl-dev lua-zip-dev
+	make libtool binutils python3 python3-markdown markdown python3-venv git lua-luaossl-dev lua-zip-dev
 sudo systemctl enable --now fcgiwrap
 sudo systemctl enable --now nginx
 
